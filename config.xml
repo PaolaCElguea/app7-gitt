@@ -1,50 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 
-<widget xmlns="http://www.w3.org/ns/widgets"
-xmlns:gap="http://phonegap.com/ns/1.0"
+<widget xmlns ="http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
 id="com.phonegap.example7"
 version="1.0.0">
-
-<name>app7 DESLIZAR</name>
+	
+<name>app6 5 DESLIZAR</name>
 
 <description>
-Aplicacion que muestra la accion deslizar
+	APLICACION QUE MUESTRA LA ACCION DESLIZAR
 </description>
 
 <author href="https://build.phonegap.com" email="elguea61@gmail.com">
-Paola Constanza Elguea Perez
+	Paola Constanza Elguea Perez
 </author>
 
-<!--Personaliza la aplicacion y plataforma-->
+<!--Perzonaliza la aplicacion y plataforma-->
 <preference name="orientation" value="default"/>
 <!--<preference name="orientation" value="portrait"/>
 <preference name="orientation" value="landscape"/>-->
-<preference name="target-device" value="universal">
+<preference name="target-device" value="universal"/>
 <preference name="fullscreen" value="true"/>
-<preference name="android-installLocation"value="auto"/>
-<preference name="permissions" value="INTERNET"/>
+<preference name="android-installLocation" value="auto"/> 
+<preference name="permissions" value="INTERNET"/> 
 
-<!--Plugins-->
+<!--plugins-->
 <!--Core plugins-->
-<plugin name="cordova-plugin-device" spec="1.1.4"/>
-<plugin name="cordova-plugin-vibration" spec="2.1.3"/>
-<plugin name="cordova-plugin-dialogs" spec="1.3.1"/>
+<plugin name="cordova-plugin-device" spec="~1.1.4"/> 
+<plugin name="cordova-plugin-vibration" spec="~2.1.3"/> 
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/> 
 
-<!--<plugin name="cordova-plugin-inappbrowser" spec="1.7.0"/>-->
-
-<!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
-<!--third part plugins-->
-
-<!--Para accesar a las paginas en internet-->
+<!--<plugin name="cordova-plugin-geolocation"source="npm"/>-->
+<!--Third part plugins-->
+<!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-internet href="http://*/*"/>
+<allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
-
 <!--Colocar icono app-->
 
-<icon src="res/android/mdpi.png"/>
+<icon src="res/android/mdpi.png"/> 
 
 </widget>
-
